@@ -68,7 +68,7 @@ jobs:
           push: true
           tags: |
             chisdealhdyt/rustdesk-api-server:latest
-            ghcr.io/nekosuneprojects/rustdesk-api-server:latest
+            ghcr.io/nekosuneprojectsforks/rustdesk-api-server:latest
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Update repo description
